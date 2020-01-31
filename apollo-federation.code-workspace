@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "products"
+		},
+		{
+			"path": "gateway"
+		},
+		{
+			"path": "reviews"
+		}
+	],
+    "settings": {
+        "debug.internalConsoleOptions": "neverOpen"
+    },
+	"launch": {
+		"configurations": [],
+		"compounds": [
+			{
+				"name": "Attach to all",
+				"configurations": [
+					"Attach to products",
+					"Attach to reviews",
+					"Attach to gateway"
+				]
+			}
+		]
+	}
+}
